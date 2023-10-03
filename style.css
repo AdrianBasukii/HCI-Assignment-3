@@ -44,7 +44,7 @@ section {
 }
 
 
-.school {
+.school, .hobby {
     border: 3px solid #292929;
     width: 26vw;
     height: 15vw;
@@ -83,7 +83,7 @@ section {
 
 }
 
-.school>p {
+.school>p, .hobby>p {
     margin-left: 5%;
     color: white;
 }
@@ -164,4 +164,20 @@ a{
     border: 0.3vw solid #14171A;
     background-color: #14171A;
     color: white;
+}
+
+#vedit {
+    background-image: url(https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmlkZW8lMjBlZGl0aW5nfGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: 26vw 15vw;
+}
+
+#game {
+    background-image: url(https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=);
+    background-size: 26vw 15vw;
+}
+
+.hobby>p {
+    text-align: center;
+    margin-right: 1vw;
+    font-size: 2vw;
 }
