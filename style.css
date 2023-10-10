@@ -4,6 +4,14 @@ html {
     color:#292929;
 }
 
+.body{
+    margin: 0;
+}
+
+.header {
+    
+}
+
 section {
     margin: 5% 10%;
     border: 5px solid #292929;
